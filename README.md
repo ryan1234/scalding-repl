@@ -6,7 +6,7 @@ Goal was to make the barrier to entry really low for developers looking to get g
 
 # Starting a Container
 1. `docker pull ryan1234/scalding-repl`  
-2. `docker run -it -v /home/scala-repl:/src --rm ryan1234:scalding`  
+2. `docker run -it -v /home/scala-repl:/src --rm ryan1234/scalding-repl`  
 
 # Notes
 1. (--rm) The container will remove itself after you're done using the REPL. (Control-D to exit)  
