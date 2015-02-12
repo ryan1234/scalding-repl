@@ -29,4 +29,4 @@ WORKDIR /scalding
 # Warm up the repl
 RUN sbt scalding-repl/compile
 RUN mkdir /src
-ENTRYPOINT ["sbt", "-J-Xmx512m", "-J-Xms512m", "scalding-repl/console"]
+ENTRYPOINT ["sbt", "scalding-repl/console"]
